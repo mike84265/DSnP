@@ -69,17 +69,6 @@ public:
                   { _data = &(*bucket)[0]; return *this;}
                   else if (bucket - _bucketHead == _localNumBuckets-1)
                   { _data = (Data*)((size_t)_data | (size_t)0x1); return *this; }
-//                  if (bucket - _bucketHead == _localNumBuckets-1){
-//                     if (bucket->size()==0) 
-//                        _data = (Data*)((size_t)_data | (size_t)(0x1));
-//                     else
-//                        _data = &(*bucket)[0];
-//                     return *this;
-//                  }
-//                  else if (bucket->size() != 0){
-//                     _data = &(*bucket)[0];
-//                     return *this;
-//                  }
                }
             }
          }
