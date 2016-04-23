@@ -1,0 +1,27 @@
+File 1 : do7.log
+File 2 : do7.log.ref
+5:
+s1: Total memory used: 0.1797 M Bytes
+s2: Total memory used: 0.207 M Bytes
+
+50932:
+s1: Total memory used: 0.3906 M Bytes
+s2: Total memory used: 0.4258 M Bytes
+
+51907:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+51912:
+s1: Total memory used: 0.3906 M Bytes
+s2: Total memory used: 0.4258 M Bytes
+
+52887:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+52892:
+s1: Total memory used: 0.3906 M Bytes
+s2: Total memory used: 0.4258 M Bytes
+
+52897 lines comparison completed.

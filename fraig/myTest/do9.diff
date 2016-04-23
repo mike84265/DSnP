@@ -1,0 +1,31 @@
+File 1 : do9.log
+File 2 : do9_ref.log
+319854:
+s1: Period time used : 0.81 seconds
+s2: Period time used : 0.83 seconds
+
+319855:
+s1: Total time used  : 0.81 seconds
+s2: Total time used  : 0.83 seconds
+
+319856:
+s1: Total memory used: 1.141 M Bytes
+s2: Total memory used: 1.188 M Bytes
+
+321936:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+321939:
+s1: Period time used : 0.01 seconds
+s2: Period time used : 0 seconds
+
+321940:
+s1: Total time used  : 0.82 seconds
+s2: Total time used  : 0.83 seconds
+
+321941:
+s1: Total memory used: 1.145 M Bytes
+s2: Total memory used: 1.195 M Bytes
+
+321946 lines comparison completed.

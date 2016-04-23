@@ -1,0 +1,236 @@
+cir> cirr ../myTest/mysim01.aag
+
+cir> cirg 0
+==================================================
+= CONST(0), line 0                               =
+==================================================
+
+cir> cirg 1
+==================================================
+= PI(1), line 2                                  =
+==================================================
+
+cir> cirg 2
+==================================================
+= PI(2), line 3                                  =
+==================================================
+
+cir> cirg 4
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 6
+==================================================
+= UNDEF(6), line 0                               =
+==================================================
+
+cir> cirg 7
+==================================================
+= AIG(7), line 7                                 =
+==================================================
+
+cir> cirg 10
+==================================================
+= AIG(10), line 10                               =
+==================================================
+
+cir> cirg 11
+==================================================
+= PO(11), line 4                                 =
+==================================================
+
+cir> cirg 12
+Error: Gate(12) not found!!
+Error: Illegal option!! (12)
+
+cir> cirg 13
+Error: Gate(13) not found!!
+Error: Illegal option!! (13)
+
+cir> cirg 14
+Error: Gate(14) not found!!
+Error: Illegal option!! (14)
+
+cir> cirg 5 -fanin 3
+AIG 5
+  !CONST 0
+  PI 1
+
+cir> cirg 11 -fanin 4
+PO 11
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 0 -fanout 4
+CONST 0
+  !AIG 5
+    AIG 7
+      AIG 9
+      AIG 10
+    AIG 8
+      AIG 9
+      AIG 10
+
+cir> cirg 1 -fanout 5
+PI 1
+  AIG 3
+    AIG 8
+      AIG 9
+      AIG 10
+    PO 11
+  AIG 5
+    AIG 7
+      AIG 9
+      AIG 10
+    AIG 8 (*)
+
+cir> cirg 2 -fanout 5
+PI 2
+  AIG 3
+    AIG 8
+      AIG 9
+      AIG 10
+    PO 11
+
+cir> cirg 2 -fanin 2
+PI 2
+
+cir> cirg 3 -fanout 3
+AIG 3
+  AIG 8
+    AIG 9
+    AIG 10
+  PO 11
+
+cir> cirg 3 -fanin 3
+AIG 3
+  PI 1
+  PI 2
+
+cir> cirg 4 -fanout 3
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 4 -fanin 3
+Error: Gate(4) not found!!
+Error: Illegal option!! (4)
+
+cir> cirg 5 -fanout 4
+AIG 5
+  AIG 7
+    AIG 9
+    AIG 10
+  AIG 8
+    AIG 9
+    AIG 10
+
+cir> cirg 5 -fanin 4
+AIG 5
+  !CONST 0
+  PI 1
+
+cir> cirg 6 -fanout 4
+UNDEF 6
+  AIG 7
+    AIG 9
+    AIG 10
+
+cir> cirg 6 -fanin 4
+UNDEF 6
+
+cir> cirg 7 -fanout 4
+AIG 7
+  AIG 9
+  AIG 10
+
+cir> cirg 7 -fanin 4
+AIG 7
+  UNDEF 6
+  AIG 5
+    !CONST 0
+    PI 1
+
+cir> cirg 8 -fanout 4
+AIG 8
+  AIG 9
+  AIG 10
+
+cir> cirg 8 -fanin 4
+AIG 8
+  AIG 5
+    !CONST 0
+    PI 1
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 9 -fanin 4
+AIG 9
+  AIG 7
+    UNDEF 6
+    AIG 5
+      !CONST 0
+      PI 1
+  AIG 8
+    AIG 5 (*)
+    AIG 3
+      PI 1
+      PI 2
+
+cir> cirg 9 -fanout 4
+AIG 9
+
+cir> cirg 10 -fanin 4
+AIG 10
+  AIG 7
+    UNDEF 6
+    AIG 5
+      !CONST 0
+      PI 1
+  AIG 8
+    AIG 5 (*)
+    AIG 3
+      PI 1
+      PI 2
+
+cir> cirg 10 -fanout 10
+AIG 10
+
+cir> cirg 11 -fanin 6
+PO 11
+  AIG 3
+    PI 1
+    PI 2
+
+cir> cirg 11 -fanout 3
+PO 11
+
+cir> cirp -n
+
+[0] PI  1
+[1] PI  2
+[2] AIG 3 1 2
+[3] PO  11 3
+
+cir> cirp -fl
+Gates with floating fanin(s): 7
+Gates defined but not used  : 9 10
+
+cir> cirp -pi
+PIs of the circuit: 1 2
+
+cir> cirp -po
+POs of the circuit: 11
+
+cir> cirw
+aag 10 2 0 1 1
+2
+4
+6
+6 2 4
+c
+AAG output by Chung-Yang (Ric) Huang
+
+cir> q -f
+

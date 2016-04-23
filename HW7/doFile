@@ -1,0 +1,9 @@
+echo "Constructing $1.log ..."
+taskMgr -f dofiles/$1 >& myTest/$1.log
+
+echo "Constructing $1_ref.log..."
+ref/taskMgr -f dofiles/$1 >& myTest/$1_ref.log
+
+echo "Comparing two files..."
+cd myTest
+../diff.out $1.log $1_ref.log $1.diff

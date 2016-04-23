@@ -1,0 +1,119 @@
+File 1 : do2.log
+File 2 : do2.log.ref
+2529:
+s1: Period time used : 0.2 seconds
+s2: Period time used : 0.29 seconds
+
+2530:
+s1: Total time used  : 0.21 seconds
+s2: Total time used  : 0.3 seconds
+
+3788:
+s1: Period time used : 0 seconds
+s2: Period time used : 0.01 seconds
+
+3789:
+s1: Total time used  : 0.21 seconds
+s2: Total time used  : 0.31 seconds
+
+3790:
+s1: Total memory used: 0.2891 M Bytes
+s2: Total memory used: 0.3008 M Bytes
+
+5048:
+s1: Total time used  : 0.22 seconds
+s2: Total time used  : 0.32 seconds
+
+5049:
+s1: Total memory used: 0.2891 M Bytes
+s2: Total memory used: 0.3008 M Bytes
+
+5057:
+s1: Total time used  : 0.22 seconds
+s2: Total time used  : 0.32 seconds
+
+5058:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+17566:
+s1: Total time used  : 0.28 seconds
+s2: Total time used  : 0.38 seconds
+
+17567:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+27576:
+s1: Period time used : 0.83 seconds
+s2: Period time used : 0.84 seconds
+
+27577:
+s1: Total time used  : 1.11 seconds
+s2: Total time used  : 1.22 seconds
+
+27578:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+27583:
+s1: Period time used : 12.4 seconds
+s2: Period time used : 14.5 seconds
+
+27584:
+s1: Total time used  : 13.51 seconds
+s2: Total time used  : 15.72 seconds
+
+27585:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+37592:
+s1: Period time used : 0.04 seconds
+s2: Period time used : 0.06 seconds
+
+37593:
+s1: Total time used  : 13.55 seconds
+s2: Total time used  : 15.78 seconds
+
+37594:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+37599:
+s1: Period time used : 0.73 seconds
+s2: Period time used : 0.97 seconds
+
+37600:
+s1: Total time used  : 14.28 seconds
+s2: Total time used  : 16.75 seconds
+
+37601:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+37606:
+s1: Period time used : 2.35 seconds
+s2: Period time used : 2.8 seconds
+
+37607:
+s1: Total time used  : 16.63 seconds
+s2: Total time used  : 19.55 seconds
+
+37608:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+45115:
+s1: Period time used : 0.04 seconds
+s2: Period time used : 0.03 seconds
+
+45116:
+s1: Total time used  : 16.67 seconds
+s2: Total time used  : 19.58 seconds
+
+45117:
+s1: Total memory used: 2.379 M Bytes
+s2: Total memory used: 2.391 M Bytes
+
+45122 lines comparison completed.

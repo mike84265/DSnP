@@ -1,0 +1,27 @@
+echo "Constructing do1.log ..."
+adtTest.$1 -f tests/do1 >& myTest/$1/do1.log
+
+echo "Constructing do2.log ..."
+adtTest.$1 -f tests/do2 >& myTest/$1/do2.log
+
+echo "Constructing do3.log ..."
+adtTest.$1 -f tests/do3 >& myTest/$1/do3.log
+
+echo "Constructing do4.log ..."
+adtTest.$1 -f tests/do4 >& myTest/$1/do4.log
+
+cd myTest/$1
+
+echo "Comparing do1 ..."
+../diff.out do1.log do1.log.ref do1.diff < ../exp
+
+echo "Comparing do2 ..."
+../diff.out do2.log do2.log.ref do2.diff < ../exp
+
+echo "Comparing do3 ..."
+../diff.out do3.log do3.log.ref do3.diff < ../exp
+
+echo "Comparing do4 ..."
+../diff.out do4.log do4.log.ref do4.diff < ../exp
+
+cd ../..

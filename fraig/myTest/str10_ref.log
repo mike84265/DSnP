@@ -1,0 +1,44 @@
+fraig> cirr ../tests.fraig/strash10.aag
+
+fraig> cirp -n
+
+[0] PI  1
+[1] CONST0
+[2] AIG 3 1 0
+[3] PO  4 3
+
+fraig> cirstr
+
+fraig> cirp -n
+
+[0] PI  1
+[1] CONST0
+[2] AIG 3 1 0
+[3] PO  4 3
+
+fraig> cirp -s
+
+Circuit Statistics
+==================
+  PI           2
+  PO           1
+  AIG          1
+------------------
+  Total        4
+
+fraig> cirw
+aag 3 2 0 1 1
+2
+4
+6
+6 2 0
+c
+AAG output by Chung-Yang (Ric) Huang
+
+fraig> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0.1172 M Bytes
+
+fraig> q -f
+

@@ -1,0 +1,111 @@
+File 1 : do1.log
+File 2 : do1.log.ref
+15:
+s1: Total memory used: 0.05859 M Bytes
+s2: Total memory used: 0.0625 M Bytes
+
+19:
+s1: adt> adtp -v
+s2: adt> adtp
+
+20:
+s1: Error: Illegal option!! (-v)
+s2: === ADT (array) ===
+
+21:
+s1: 
+s2: [  0] = jqsvhi   [  1] = nvhizi   [  2] = jemxun   [  3] = stcizy   
+
+22:
+s1: adt> adtd -back 5
+s2: [  4] = ypxgeo   [  5] = qljlcb   [  6] = yfchfb   [  7] = mulrct   
+
+23:
+s1: 
+s2: [  8] = aonvnx   [  9] = cqfndd   [ 10] = csoxla   [ 11] = pjgrrm   
+
+24:
+s1: adt> adtp
+s2: [ 12] = segevj   [ 13] = xvylrl   [ 14] = taogab   [ 15] = lujbfo   
+
+25:
+s1: === ADT (array) ===
+s2: [ 16] = mldgzt   
+
+26:
+s1: [  0] = jqsvhi   [  1] = nvhizi   [  2] = jemxun   [  3] = stcizy   
+s2: 
+
+27:
+s1: [  4] = ypxgeo   [  5] = qljlcb   [  6] = yfchfb   [  7] = mulrct   
+s2: adt> adtd -back 5
+
+28:
+s1: [  8] = aonvnx   [  9] = cqfndd   [ 10] = csoxla   [ 11] = pjgrrm   
+s2: 
+
+29:
+s1: 
+s2: adt> adtp
+
+30:
+s1: 
+s2: === ADT (array) ===
+
+31:
+s1: adt> usage
+s2: [  0] = jqsvhi   [  1] = nvhizi   [  2] = jemxun   [  3] = stcizy   
+
+32:
+s1: Period time used : 0 seconds
+s2: [  4] = ypxgeo   [  5] = qljlcb   [  6] = yfchfb   [  7] = mulrct   
+
+33:
+s1: Total time used  : 0 seconds
+s2: [  8] = aonvnx   [  9] = cqfndd   [ 10] = csoxla   [ 11] = pjgrrm   
+
+34:
+s1: Total memory used: 0.05859 M Bytes
+s2: 
+
+36:
+s1: adt> adtd -rand 4
+s2: adt> usage
+
+37:
+s1: 
+s2: Period time used : 0 seconds
+
+38:
+s1: adt> adtp
+s2: Total time used  : 0 seconds
+
+39:
+s1: === ADT (array) ===
+s2: Total memory used: 0.0625 M Bytes
+
+40:
+s1: [  0] = nvhizi   [  1] = jemxun   [  2] = ypxgeo   [  3] = qljlcb   
+s2: 
+
+41:
+s1: [  4] = aonvnx   [  5] = cqfndd   [  6] = csoxla   [  7] = pjgrrm   
+s2: adt> adtd -rand 4
+
+43:
+s1: 
+s2: adt> adtp
+
+44:
+s1: adt> q -f
+s2: === ADT (array) ===
+
+45:
+s1: 
+s2: [  0] = nvhizi   [  1] = jemxun   [  2] = ypxgeo   [  3] = qljlcb   
+
+46:
+s1: 
+s2: [  4] = aonvnx   [  5] = cqfndd   [  6] = csoxla   [  7] = pjgrrm   
+
+47 lines comparison completed.

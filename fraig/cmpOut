@@ -1,0 +1,3 @@
+cirr tests.fraig/sim09.aag
+cirsim -f tests.fraig/pattern.09 -o p06
+q -f

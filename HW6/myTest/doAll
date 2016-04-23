@@ -1,0 +1,37 @@
+echo "Executing do1..."
+cirTest -f do1 >& myTest/do1.log
+
+echo "Executing do2..."
+cirTest -f do2 >& myTest/do2.log
+
+echo "Executing do3..."
+cirTest -f do3 >& myTest/do3.log
+
+echo "Executing do5..."
+cirTest -f do5 >& myTest/do5.log
+
+echo "Executing ref/do1..."
+ref/cirTest -f do1 >& myTest/do1.log.ref
+
+echo "Executing ref/do2..."
+ref/cirTest -f do2 >& myTest/do2.log.ref
+
+echo "Executing ref/do3..."
+ref/cirTest -f do3 >& myTest/do3.log.ref
+
+echo "Executing ref/do5..."
+ref/cirTest -f do5 >& myTest/do5.log.ref
+
+cd myTest
+echo "Comparing do1..."
+../diff.out do1.log do1.log.ref do1.diff < exp
+
+echo "Comparing do2..."
+../diff.out do2.log do2.log.ref do2.diff < exp
+
+echo "Comparing do3..."
+../diff.out do3.log do3.log.ref do3.diff < exp
+
+echo "Comparing do5..."
+../diff.out do5.log do5.log.ref do5.diff < exp
+cd ..

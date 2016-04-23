@@ -1,0 +1,20 @@
+cirr tests.fraig/sim13.aag
+usage
+cirp -n
+cirp -s
+cirp -pi
+cirp -po
+cirp -fl
+usage
+cirw
+usage
+cirg 50124 -fanin 10
+cirg 0 -fanout 5
+cirg 1 -fanout 5
+cirg 86072 -fanin 5
+cirg 87422 -fanout 10
+cirg 64382 -fanin 7
+cirg 2148 -fanout 6
+cirw
+usage
+q -f

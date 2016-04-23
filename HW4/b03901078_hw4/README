@@ -1,0 +1,2 @@
+I added a static function to_string(int) in "memCmd.cpp", which is defined in STL in c++11.
+If you compile this program with c++11, please comment out that function declaration.

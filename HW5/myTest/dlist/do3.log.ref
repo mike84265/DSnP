@@ -1,0 +1,104 @@
+adt> adta -s jordan
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   
+
+adt> adta -s jordano
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jordan   
+
+adt> adta -s jorda
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   
+
+adt> adta -s jordan
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+
+
+adt> adta -s jordana
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jordan   [  2] = jorda   [  3] = jordan   
+[  4] = jordan   
+
+adt> adtd -s jordani
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jorda   [  2] = jordan   [  3] = jordan   
+
+
+adt> adtd -s jord
+Error: "jord" is not found!
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jorda   [  2] = jordan   [  3] = jordan   
+
+
+adt> adta -r 30
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = jordan   [  1] = jorda   [  2] = jordan   [  3] = jordan   
+[  4] = gpcbgx   [  5] = ibqbzm   [  6] = pwubvx   [  7] = zemvji   
+[  8] = jwjehw   [  9] = oolqqs   [ 10] = nzueat   [ 11] = rqqlsm   
+[ 12] = isruoa   [ 13] = dxwmbe   [ 14] = jqsvhi   [ 15] = nvhizi   
+[ 16] = brzscs   [ 17] = elkwgy   [ 18] = wjvtwx   [ 19] = xfnpav   
+[ 20] = yoqgwq   [ 21] = pyhoqj   [ 22] = hvvrrb   [ 23] = poklhg   
+[ 24] = jemxun   [ 25] = stcizy   [ 26] = ypxgeo   [ 27] = qljlcb   
+[ 28] = mspxew   [ 29] = enaqkv   [ 30] = ecoglo   [ 31] = fjdcqh   
+[ 32] = qgtarv   [ 33] = bdoras   
+
+adt> adtd -front 5
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = ibqbzm   [  1] = pwubvx   [  2] = zemvji   [  3] = jwjehw   
+[  4] = oolqqs   [  5] = nzueat   [  6] = rqqlsm   [  7] = isruoa   
+[  8] = dxwmbe   [  9] = jqsvhi   [ 10] = nvhizi   [ 11] = brzscs   
+[ 12] = elkwgy   [ 13] = wjvtwx   [ 14] = xfnpav   [ 15] = yoqgwq   
+[ 16] = pyhoqj   [ 17] = hvvrrb   [ 18] = poklhg   [ 19] = jemxun   
+[ 20] = stcizy   [ 21] = ypxgeo   [ 22] = qljlcb   [ 23] = mspxew   
+[ 24] = enaqkv   [ 25] = ecoglo   [ 26] = fjdcqh   [ 27] = qgtarv   
+[ 28] = bdoras   
+
+adt> adtd -back 5
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = ibqbzm   [  1] = pwubvx   [  2] = zemvji   [  3] = jwjehw   
+[  4] = oolqqs   [  5] = nzueat   [  6] = rqqlsm   [  7] = isruoa   
+[  8] = dxwmbe   [  9] = jqsvhi   [ 10] = nvhizi   [ 11] = brzscs   
+[ 12] = elkwgy   [ 13] = wjvtwx   [ 14] = xfnpav   [ 15] = yoqgwq   
+[ 16] = pyhoqj   [ 17] = hvvrrb   [ 18] = poklhg   [ 19] = jemxun   
+[ 20] = stcizy   [ 21] = ypxgeo   [ 22] = qljlcb   [ 23] = mspxew   
+
+
+adt> adtd -r 5
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = ibqbzm   [  1] = pwubvx   [  2] = zemvji   [  3] = jwjehw   
+[  4] = rqqlsm   [  5] = isruoa   [  6] = dxwmbe   [  7] = jqsvhi   
+[  8] = nvhizi   [  9] = brzscs   [ 10] = wjvtwx   [ 11] = xfnpav   
+[ 12] = pyhoqj   [ 13] = hvvrrb   [ 14] = poklhg   [ 15] = jemxun   
+[ 16] = ypxgeo   [ 17] = qljlcb   [ 18] = mspxew   
+
+adt> adtd -all
+
+adt> adtp
+=== ADT (dlist) ===
+
+
+adt> q -f
+

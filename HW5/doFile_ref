@@ -1,0 +1,8 @@
+echo "Constructing do1.log.ref ..."
+ref/adtTest.$1 -f tests/do1 >& myTest/$1/do1.log.ref
+echo "Constructing do2.log.ref ..."
+ref/adtTest.$1 -f tests/do2 >& myTest/$1/do2.log.ref
+echo "Constructing do3.log.ref ..."
+ref/adtTest.$1 -f tests/do3 >& myTest/$1/do3.log.ref
+echo "Constructing do4.log.ref ..."
+ref/adtTest.$1 -f tests/do4 >& myTest/$1/do4.log.ref

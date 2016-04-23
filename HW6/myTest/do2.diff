@@ -1,0 +1,7 @@
+File 1 : do2.log
+File 2 : do2.log.ref
+0:
+s1: cir> cirr ../tests.fraig/sim02.aag
+s2: cir> cirr tests.fraig/sim02.aag
+
+81 lines comparison completed.

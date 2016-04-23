@@ -1,0 +1,26 @@
+cirr ../tests.fraig/strash05.aag
+cirp -n
+cirstr
+cirp -n
+cirp -s
+cirw
+usage
+cirg 0 -fanout 3
+cirg 1 -fanout 3
+cirg 2 -fanout 3
+cirg 3 -fanin 3
+cirg 3 -fanout 3
+cirg 4 -fanin 3
+cirg 4 -fanout 3
+cirg 5 -fanin 3
+cirg 5 -fanout 3
+cirg 6 -fanin 3
+cirg 6 -fanout 3
+cirg 7 -fanin 3
+cirg 7 -fanout 3
+cirg 8 -fanin 3
+cirg 8 -fanout 3
+cirg 9 -fanout 3
+cirg 10 -fanout 3
+cirg 11
+q -f

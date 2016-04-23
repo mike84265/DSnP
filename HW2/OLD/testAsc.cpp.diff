@@ -1,0 +1,18 @@
+6c6
+<   Copyright    [ Copyleft(c) 2007-2015 LaDs(III), GIEE, NTU, Taiwan ]
+---
+>   Copyright    [ Copyleft(c) 2007-2014 LaDs(III), GIEE, NTU, Taiwan ]
+20c20
+< ParseChar getChar(istream&);
+---
+> ParseChar checkChar(char, istream&);
+30c30,31
+<       ParseChar pch = getChar(cin);
+---
+>       ch = mygetc(cin);
+>       ParseChar pch = checkChar(ch, cin);
+52,53c53
+<          default:             cout << char(pch) << endl; break;
+<                               // printable character
+---
+>          default:             cout << ch << endl; break; // printable character

@@ -1,0 +1,19 @@
+mtn 1 -a 514
+mtn 1 -a 770
+mtn 1 -a 258
+mtn 1 -a 2
+mtd -a -i 1
+mtd -a -i 2
+mtd -a -i 3
+mtd -a -i 0
+mtp
+mtr
+mtn 1 -a 770
+mtn 1 -a 514
+mtn 1 -a 258
+mtn 1 -a 2
+mtd -a -i 1
+mtd -a -i 2
+mtd -a -i 3
+mtd -a -i 0
+mtp

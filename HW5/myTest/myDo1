@@ -1,0 +1,12 @@
+adt -r 20
+adtd -b 20
+adtp
+adta -r 50
+adtp
+adtd -f 10
+adtd -b 10
+adtd -r 25
+adtp
+adta -r 500
+adtd -r 50
+q -f

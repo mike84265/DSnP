@@ -1,0 +1,23 @@
+File 1 : opt07.log
+File 2 : opt07_ref.log
+5:
+s1: Total memory used: 0.1641 M Bytes
+s2: Total memory used: 0.08203 M Bytes
+
+35:
+s1: aag 10 3 0 1 6
+s2: aag 10 3 0 1 1
+
+42:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+337:
+s1: Total memory used: 0.2266 M Bytes
+s2: Total memory used: 0.1172 M Bytes
+
+373:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+586 lines comparison completed.

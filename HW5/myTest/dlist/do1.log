@@ -1,0 +1,45 @@
+adt> adta -r 20
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = gpcbgx   [  1] = ibqbzm   [  2] = pwubvx   [  3] = zemvji   
+[  4] = jwjehw   [  5] = oolqqs   [  6] = nzueat   [  7] = rqqlsm   
+[  8] = isruoa   [  9] = dxwmbe   [ 10] = jqsvhi   [ 11] = nvhizi   
+[ 12] = brzscs   [ 13] = elkwgy   [ 14] = wjvtwx   [ 15] = xfnpav   
+[ 16] = yoqgwq   [ 17] = pyhoqj   [ 18] = hvvrrb   [ 19] = poklhg   
+
+
+adt> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0.04297 M Bytes
+
+adt> adtd -front 3
+
+adt> adtp -v
+Error: Illegal option!! (-v)
+
+adt> adtd -back 5
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = zemvji   [  1] = jwjehw   [  2] = oolqqs   [  3] = nzueat   
+[  4] = rqqlsm   [  5] = isruoa   [  6] = dxwmbe   [  7] = jqsvhi   
+[  8] = nvhizi   [  9] = brzscs   [ 10] = elkwgy   [ 11] = wjvtwx   
+
+
+adt> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0.04297 M Bytes
+
+adt> adtd -rand 4
+
+adt> adtp
+=== ADT (dlist) ===
+[  0] = zemvji   [  1] = oolqqs   [  2] = nzueat   [  3] = isruoa   
+[  4] = jqsvhi   [  5] = nvhizi   [  6] = brzscs   [  7] = wjvtwx   
+
+
+adt> q -f
+

@@ -1,0 +1,703 @@
+File 1 : do10.log
+File 2 : do10_ref.log
+5302:
+s1: Updating min: (hwuzk, 582)
+s2: Updating min: (akkto, 582)
+
+5304:
+s1: Updating min: (akkto, 582)
+s2: Updating min: (hwuzk, 582)
+
+5334:
+s1: Updating min: (jaimy, 780)
+s2: Updating min: (avyhm, 780)
+
+5336:
+s1: Updating min: (avyhm, 780)
+s2: Updating min: (jaimy, 780)
+
+5354:
+s1: Updating min: (szfes, 848)
+s2: Updating min: (wtfwj, 848)
+
+5356:
+s1: Updating min: (wtfwj, 848)
+s2: Updating min: (szfes, 848)
+
+5376:
+s1: Updating min: (ptglb, 898)
+s2: Updating min: (hlmzr, 898)
+
+5378:
+s1: Updating min: (hlmzr, 898)
+s2: Updating min: (ptglb, 898)
+
+5402:
+s1: Updating min: (kuqxg, 937)
+s2: Updating min: (wfqmv, 937)
+
+5404:
+s1: Updating min: (wfqmv, 937)
+s2: Updating min: (kuqxg, 937)
+
+5452:
+s1: Updating min: (heyyb, 1090)
+s2: Updating min: (itzft, 1090)
+
+5454:
+s1: Updating min: (itzft, 1090)
+s2: Updating min: (heyyb, 1090)
+
+5486:
+s1: Updating min: (cyhqo, 1151)
+s2: Updating min: (qstkk, 1151)
+
+5488:
+s1: Updating min: (qstkk, 1151)
+s2: Updating min: (cyhqo, 1151)
+
+5536:
+s1: Updating min: (nryoc, 1245)
+s2: Updating min: (hiiep, 1245)
+
+5538:
+s1: Updating min: (hiiep, 1245)
+s2: Updating min: (nryoc, 1245)
+
+6613:
+s1: (ekyjo, 1278)
+s2: (mqjfr, 1278)
+
+6614:
+s1: (akkto, 1282)
+s2: (hwuzk, 1282)
+
+6615:
+s1: (mqjfr, 1278)
+s2: (ekyjo, 1278)
+
+6617:
+s1: (hwuzk, 1282)
+s2: (xbfll, 1283)
+
+6618:
+s1: (avbje, 1285)
+s2: (akkto, 1282)
+
+6619:
+s1: (sgwid, 1286)
+s2: (avbje, 1285)
+
+6622:
+s1: (kuqxg, 1287)
+s2: (wfqmv, 1287)
+
+6623:
+s1: (xbfll, 1283)
+s2: (ijigw, 1290)
+
+6625:
+s1: (ayyjq, 1339)
+s2: (sgwid, 1286)
+
+6626:
+s1: (wfqmv, 1287)
+s2: (kuqxg, 1287)
+
+6635:
+s1: (ijigw, 1290)
+s2: (jgojl, 1405)
+
+6640:
+s1: (myrzk, 1463)
+s2: (ayyjq, 1339)
+
+6643:
+s1: (itzft, 1440)
+s2: (heyyb, 1440)
+
+6648:
+s1: (jgmqe, 1430)
+s2: (dxihc, 1418)
+
+6658:
+s1: (swxjy, 1545)
+s2: (bxjdp, 1542)
+
+6659:
+s1: (jgojl, 1405)
+s2: (xxvaw, 1490)
+
+6660:
+s1: (xxvaw, 1490)
+s2: (oirjo, 1508)
+
+6662:
+s1: (nlexo, 1583)
+s2: (yplsk, 1555)
+
+6670:
+s1: (bxjdp, 1542)
+s2: (myrzk, 1463)
+
+6673:
+s1: (akgzp, 1561)
+s2: (psoos, 1590)
+
+6676:
+s1: (ghuzs, 1497)
+s2: (mkvfb, 1493)
+
+6677:
+s1: (ykdvv, 1612)
+s2: (ptglb, 1598)
+
+6678:
+s1: (bjexw, 1553)
+s2: (ojybm, 1550)
+
+6680:
+s1: (ptglb, 1598)
+s2: (zlbbw, 1605)
+
+6683:
+s1: (ojybm, 1550)
+s2: (bjexw, 1553)
+
+6696:
+s1: (xqkmq, 1585)
+s2: (brzub, 1592)
+
+6700:
+s1: (qstkk, 1501)
+s2: (cyhqo, 1501)
+
+6702:
+s1: (dxihc, 1418)
+s2: (jgmqe, 1430)
+
+6709:
+s1: (oirjo, 1508)
+s2: (swxjy, 1545)
+
+6718:
+s1: (heyyb, 1440)
+s2: (itzft, 1440)
+
+6721:
+s1: (yplsk, 1555)
+s2: (eiavv, 1527)
+
+6722:
+s1: (emdan, 1469)
+s2: (idmqs, 1464)
+
+6724:
+s1: (idmqs, 1464)
+s2: (upmxo, 1533)
+
+6725:
+s1: (eiavv, 1527)
+s2: (emdan, 1469)
+
+6729:
+s1: (hlmzr, 1598)
+s2: (akgzp, 1561)
+
+6730:
+s1: (psoos, 1590)
+s2: (nlexo, 1583)
+
+6735:
+s1: (hiiep, 1595)
+s2: (nryoc, 1595)
+
+6738:
+s1: (cyhqo, 1501)
+s2: (qstkk, 1501)
+
+6751:
+s1: (zlbbw, 1605)
+s2: (ykdvv, 1612)
+
+6752:
+s1: (brzub, 1592)
+s2: (iuhox, 1594)
+
+6757:
+s1: (upmxo, 1533)
+s2: (fqvxn, 1521)
+
+6776:
+s1: (mkvfb, 1493)
+s2: (ghuzs, 1497)
+
+6807:
+s1: (fqvxn, 1521)
+s2: (hlmzr, 1598)
+
+6873:
+s1: (iuhox, 1594)
+s2: (xqkmq, 1585)
+
+7135:
+s1: (nryoc, 1595)
+s2: (hiiep, 1595)
+
+7672:
+s1: Updating min: (ekyjo, 1278)
+s2: Updating min: (mqjfr, 1278)
+
+7674:
+s1: Updating min: (mqjfr, 1278)
+s2: Updating min: (ekyjo, 1278)
+
+7678:
+s1: Updating min: (akkto, 1282)
+s2: Updating min: (hwuzk, 1282)
+
+7680:
+s1: Updating min: (hwuzk, 1282)
+s2: Updating min: (akkto, 1282)
+
+7688:
+s1: Updating min: (kuqxg, 1287)
+s2: Updating min: (wfqmv, 1287)
+
+7696:
+s1: Updating min: (eokcm, 1315)
+s2: Updating min: (wgduj, 1315)
+
+7698:
+s1: Updating min: (wgduj, 1315)
+s2: Updating min: (eokcm, 1315)
+
+7730:
+s1: Updating min: (fqcgl, 1393)
+s2: Updating min: (oarpe, 1393)
+
+7732:
+s1: Updating min: (oarpe, 1393)
+s2: Updating min: (fqcgl, 1393)
+
+7746:
+s1: Updating min: (nqqxm, 1433)
+s2: Updating min: (drcyf, 1433)
+
+7748:
+s1: Updating min: (drcyf, 1433)
+s2: Updating min: (nqqxm, 1433)
+
+7764:
+s1: Updating min: (myrzk, 1463)
+s2: Updating min: (jgqzm, 1463)
+
+7766:
+s1: Updating min: (jgqzm, 1463)
+s2: Updating min: (myrzk, 1463)
+
+7778:
+s1: Updating min: (ekyjo, 1478)
+s2: Updating min: (mqjfr, 1478)
+
+7780:
+s1: Updating min: (mqjfr, 1478)
+s2: Updating min: (ekyjo, 1478)
+
+7784:
+s1: Updating min: (avyhm, 1480)
+s2: Updating min: (jaimy, 1480)
+
+7786:
+s1: Updating min: (jaimy, 1480)
+s2: Updating min: (avyhm, 1480)
+
+7790:
+s1: Updating min: (akkto, 1482)
+s2: Updating min: (diiia, 1482)
+
+7792:
+s1: Updating min: (hwuzk, 1482)
+s2: Updating min: (akkto, 1482)
+
+7794:
+s1: Updating min: (diiia, 1482)
+s2: Updating min: (hwuzk, 1482)
+
+7804:
+s1: Updating min: (kuqxg, 1487)
+s2: Updating min: (wfqmv, 1487)
+
+7808:
+s1: Updating min: (ijigw, 1490)
+s2: Updating min: (xxvaw, 1490)
+
+7810:
+s1: Updating min: (xxvaw, 1490)
+s2: Updating min: (ijigw, 1490)
+
+7812:
+s1: Updating min: (ynxfa, 1492)
+s2: Updating min: (pyrfv, 1492)
+
+7814:
+s1: Updating min: (pyrfv, 1492)
+s2: Updating min: (ynxfa, 1492)
+
+7828:
+s1: Updating min: (wgduj, 1515)
+s2: Updating min: (oirjo, 1508)
+
+7830:
+s1: Updating min: (eokcm, 1515)
+s2: Updating min: (wgduj, 1515)
+
+7834:
+s1: Updating min: (nywyc, 1518)
+s2: Updating min: (eokcm, 1515)
+
+7836:
+s1: Updating min: (vhuko, 1519)
+s2: Updating min: (nywyc, 1518)
+
+7840:
+s1: Updating min: (fqvxn, 1521)
+s2: Updating min: (vhuko, 1519)
+
+7842:
+s1: Updating min: (eiavv, 1527)
+s2: Updating min: (fqvxn, 1521)
+
+7844:
+s1: Updating min: (xaqoc, 1528)
+s2: Updating min: (eiavv, 1527)
+
+7846:
+s1: Updating min: (jlona, 1531)
+s2: Updating min: (xaqoc, 1528)
+
+7848:
+s1: Updating min: (upmxo, 1533)
+s2: Updating min: (jlona, 1531)
+
+7850:
+s1: Updating min: (gdghz, 1537)
+s2: Updating min: (upmxo, 1533)
+
+7852:
+s1: Updating min: (ayyjq, 1539)
+s2: Updating min: (gdghz, 1537)
+
+7854:
+s1: Updating min: (bxjdp, 1542)
+s2: Updating min: (ayyjq, 1539)
+
+7856:
+s1: Updating min: (swxjy, 1545)
+s2: Updating min: (bxjdp, 1542)
+
+7858:
+s1: Updating min: (wtfwj, 1548)
+s2: Updating min: (szfes, 1548)
+
+7860:
+s1: Updating min: (szfes, 1548)
+s2: Updating min: (wtfwj, 1548)
+
+7864:
+s1: Updating min: (ojybm, 1550)
+s2: Updating min: (bjexw, 1553)
+
+7890:
+s1: Updating min: (vudtj, 1580)
+s2: Updating min: (qpant, 1580)
+
+7892:
+s1: Updating min: (qpant, 1580)
+s2: Updating min: (vudtj, 1580)
+
+7894:
+s1: Updating min: (nlexo, 1583)
+s2: Updating min: (ayqhg, 1584)
+
+7898:
+s1: Updating min: (ayqhg, 1584)
+s2: Updating min: (xqkmq, 1585)
+
+7900:
+s1: Updating min: (xqkmq, 1585)
+s2: Updating min: (xngwr, 1586)
+
+7902:
+s1: Updating min: (xngwr, 1586)
+s2: Updating min: (ikbor, 1589)
+
+7904:
+s1: Updating min: (ikbor, 1589)
+s2: Updating min: (nyauv, 1590)
+
+7906:
+s1: Updating min: (nyauv, 1590)
+s2: Updating min: (psoos, 1590)
+
+7924:
+s1: Updating min: (hdacr, 1600)
+s2: Updating min: (hsqac, 1600)
+
+7926:
+s1: Updating min: (hsqac, 1600)
+s2: Updating min: (hdacr, 1600)
+
+7934:
+s1: Updating min: (zlbbw, 1605)
+s2: Updating min: (yzfpo, 1607)
+
+7936:
+s1: Updating min: (yzfpo, 1607)
+s2: Updating min: (dgcvp, 1608)
+
+7938:
+s1: Updating min: (dgcvp, 1608)
+s2: Updating min: (ykdvv, 1612)
+
+7956:
+s1: Updating min: (heyyb, 1640)
+s2: Updating min: (itzft, 1640)
+
+7958:
+s1: Updating min: (itzft, 1640)
+s2: Updating min: (heyyb, 1640)
+
+7970:
+s1: Updating min: (jgqzm, 1663)
+s2: Updating min: (myrzk, 1663)
+
+7972:
+s1: Updating min: (myrzk, 1663)
+s2: Updating min: (jgqzm, 1663)
+
+7980:
+s1: Updating min: (ggthp, 1676)
+s2: Updating min: (cykub, 1676)
+
+7982:
+s1: Updating min: (cykub, 1676)
+s2: Updating min: (ggthp, 1676)
+
+7986:
+s1: Updating min: (ekyjo, 1678)
+s2: Updating min: (mqjfr, 1678)
+
+7988:
+s1: Updating min: (mqjfr, 1678)
+s2: Updating min: (ekyjo, 1678)
+
+8012:
+s1: Updating min: (kuqxg, 1687)
+s2: Updating min: (wfqmv, 1687)
+
+8022:
+s1: Updating min: (ynxfa, 1692)
+s2: Updating min: (pyrfv, 1692)
+
+8024:
+s1: Updating min: (pyrfv, 1692)
+s2: Updating min: (ynxfa, 1692)
+
+8038:
+s1: Updating min: (cyhqo, 1701)
+s2: Updating min: (qstkk, 1701)
+
+8042:
+s1: Updating min: (qstkk, 1701)
+s2: Updating min: (cyhqo, 1701)
+
+8044:
+s1: Updating min: (avdku, 1715)
+s2: Updating min: (oirjo, 1708)
+
+8048:
+s1: Updating min: (wgduj, 1715)
+s2: Updating min: (avdku, 1715)
+
+8050:
+s1: Updating min: (rxpaq, 1716)
+s2: Updating min: (wgduj, 1715)
+
+8052:
+s1: Updating min: (nywyc, 1718)
+s2: Updating min: (rxpaq, 1716)
+
+8054:
+s1: Updating min: (vhuko, 1719)
+s2: Updating min: (nywyc, 1718)
+
+8058:
+s1: Updating min: (fqvxn, 1721)
+s2: Updating min: (vhuko, 1719)
+
+8060:
+s1: Updating min: (eiavv, 1727)
+s2: Updating min: (fqvxn, 1721)
+
+8062:
+s1: Updating min: (xaqoc, 1728)
+s2: Updating min: (eiavv, 1727)
+
+8064:
+s1: Updating min: (jlona, 1731)
+s2: Updating min: (xaqoc, 1728)
+
+8066:
+s1: Updating min: (upmxo, 1733)
+s2: Updating min: (jlona, 1731)
+
+8068:
+s1: Updating min: (gdghz, 1737)
+s2: Updating min: (upmxo, 1733)
+
+8070:
+s1: Updating min: (ayyjq, 1739)
+s2: Updating min: (gdghz, 1737)
+
+8072:
+s1: Updating min: (bxjdp, 1742)
+s2: Updating min: (ayyjq, 1739)
+
+8074:
+s1: Updating min: (nrfpt, 1743)
+s2: Updating min: (bxjdp, 1742)
+
+8076:
+s1: Updating min: (swxjy, 1745)
+s2: Updating min: (nrfpt, 1743)
+
+8082:
+s1: Updating min: (ojybm, 1750)
+s2: Updating min: (cwyar, 1750)
+
+8084:
+s1: Updating min: (cwyar, 1750)
+s2: Updating min: (bjexw, 1753)
+
+8110:
+s1: Updating min: (vudtj, 1780)
+s2: Updating min: (qpant, 1780)
+
+8112:
+s1: Updating min: (qpant, 1780)
+s2: Updating min: (vudtj, 1780)
+
+8114:
+s1: Updating min: (nlexo, 1783)
+s2: Updating min: (ayqhg, 1784)
+
+8116:
+s1: Updating min: (ayqhg, 1784)
+s2: Updating min: (xvjug, 1784)
+
+8118:
+s1: Updating min: (xvjug, 1784)
+s2: Updating min: (verpn, 1784)
+
+8120:
+s1: Updating min: (verpn, 1784)
+s2: Updating min: (xqkmq, 1785)
+
+8122:
+s1: Updating min: (xqkmq, 1785)
+s2: Updating min: (xngwr, 1786)
+
+8124:
+s1: Updating min: (xngwr, 1786)
+s2: Updating min: (ikbor, 1789)
+
+8126:
+s1: Updating min: (ikbor, 1789)
+s2: Updating min: (nyauv, 1790)
+
+8128:
+s1: Updating min: (nyauv, 1790)
+s2: Updating min: (psoos, 1790)
+
+8130:
+s1: Updating min: (kmuqu, 1792)
+s2: Updating min: (brzub, 1792)
+
+8132:
+s1: Updating min: (brzub, 1792)
+s2: Updating min: (kmuqu, 1792)
+
+8134:
+s1: Updating min: (oarpe, 1793)
+s2: Updating min: (fqcgl, 1793)
+
+8136:
+s1: Updating min: (fqcgl, 1793)
+s2: Updating min: (oarpe, 1793)
+
+8142:
+s1: Updating min: (nryoc, 1795)
+s2: Updating min: (hiiep, 1795)
+
+8144:
+s1: Updating min: (hiiep, 1795)
+s2: Updating min: (nryoc, 1795)
+
+8164:
+s1: Updating min: (zlbbw, 1805)
+s2: Updating min: (yzfpo, 1807)
+
+8166:
+s1: Updating min: (yzfpo, 1807)
+s2: Updating min: (dgcvp, 1808)
+
+8168:
+s1: Updating min: (dgcvp, 1808)
+s2: Updating min: (ykdvv, 1812)
+
+8172:
+s1: Updating min: (hgebl, 1822)
+s2: Updating min: (yqfbm, 1822)
+
+8174:
+s1: Updating min: (yqfbm, 1822)
+s2: Updating min: (hgebl, 1822)
+
+8206:
+s1: Updating min: (tlvcd, 1859)
+s2: Updating min: (eqsph, 1859)
+
+8208:
+s1: Updating min: (eqsph, 1859)
+s2: Updating min: (tlvcd, 1859)
+
+8234:
+s1: Updating min: (avyhm, 1880)
+s2: Updating min: (jaimy, 1880)
+
+8236:
+s1: Updating min: (jaimy, 1880)
+s2: Updating min: (avyhm, 1880)
+
+8240:
+s1: Updating min: (diiia, 1882)
+s2: Updating min: (akkto, 1882)
+
+8244:
+s1: Updating min: (akkto, 1882)
+s2: Updating min: (diiia, 1882)
+
+8254:
+s1: Updating min: (kuqxg, 1887)
+s2: Updating min: (wfqmv, 1887)
+
+8258:
+s1: Updating min: (ijigw, 1890)
+s2: Updating min: (xxvaw, 1890)
+
+8260:
+s1: Updating min: (xxvaw, 1890)
+s2: Updating min: (ijigw, 1890)
+
+8275 lines comparison completed.

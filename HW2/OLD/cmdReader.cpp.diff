@@ -1,0 +1,13 @@
+6c6
+<   Copyright    [ Copyleft(c) 2007-2015 LaDs(III), GIEE, NTU, Taiwan ]
+---
+>   Copyright    [ Copyleft(c) 2007-2014 LaDs(III), GIEE, NTU, Taiwan ]
+19c19
+< ParseChar getChar(istream&);
+---
+> ParseChar checkChar(char, istream&);
+42c42,43
+<       ParseChar pch = getChar(istr);
+---
+>       char ch = mygetc(istr);
+>       ParseChar pch = checkChar(ch, istr);

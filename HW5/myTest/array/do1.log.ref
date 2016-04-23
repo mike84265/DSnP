@@ -1,0 +1,50 @@
+adt> adta -r 20
+
+adt> adtp
+=== ADT (array) ===
+[  0] = gpcbgx   [  1] = pwubvx   [  2] = oolqqs   [  3] = jqsvhi   
+[  4] = nvhizi   [  5] = jemxun   [  6] = stcizy   [  7] = ypxgeo   
+[  8] = qljlcb   [  9] = yfchfb   [ 10] = mulrct   [ 11] = aonvnx   
+[ 12] = cqfndd   [ 13] = csoxla   [ 14] = pjgrrm   [ 15] = segevj   
+[ 16] = xvylrl   [ 17] = taogab   [ 18] = lujbfo   [ 19] = mldgzt   
+
+
+adt> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0.0625 M Bytes
+
+adt> adtd -front 3
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jqsvhi   [  1] = nvhizi   [  2] = jemxun   [  3] = stcizy   
+[  4] = ypxgeo   [  5] = qljlcb   [  6] = yfchfb   [  7] = mulrct   
+[  8] = aonvnx   [  9] = cqfndd   [ 10] = csoxla   [ 11] = pjgrrm   
+[ 12] = segevj   [ 13] = xvylrl   [ 14] = taogab   [ 15] = lujbfo   
+[ 16] = mldgzt   
+
+adt> adtd -back 5
+
+adt> adtp
+=== ADT (array) ===
+[  0] = jqsvhi   [  1] = nvhizi   [  2] = jemxun   [  3] = stcizy   
+[  4] = ypxgeo   [  5] = qljlcb   [  6] = yfchfb   [  7] = mulrct   
+[  8] = aonvnx   [  9] = cqfndd   [ 10] = csoxla   [ 11] = pjgrrm   
+
+
+adt> usage
+Period time used : 0 seconds
+Total time used  : 0 seconds
+Total memory used: 0.0625 M Bytes
+
+adt> adtd -rand 4
+
+adt> adtp
+=== ADT (array) ===
+[  0] = nvhizi   [  1] = jemxun   [  2] = ypxgeo   [  3] = qljlcb   
+[  4] = aonvnx   [  5] = cqfndd   [  6] = csoxla   [  7] = pjgrrm   
+
+
+adt> q -f
+

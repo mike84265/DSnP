@@ -1,0 +1,4 @@
+cd myTest
+echo "Constructing $1.log ..."
+../fraig -f $1 >& $1.log
+

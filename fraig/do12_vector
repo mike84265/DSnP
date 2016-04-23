@@ -1,0 +1,39 @@
+File 1 : do12.log
+File 2 : do12_ref.log
+5:
+s1: Total memory used: 1.562 M Bytes
+s2: Total memory used: 1.41 M Bytes
+
+12:
+s1: Period time used : 0.01 seconds
+s2: Period time used : 0 seconds
+
+13:
+s1: Total time used  : 0.01 seconds
+s2: Total time used  : 0 seconds
+
+14:
+s1: Total memory used: 2.074 M Bytes
+s2: Total memory used: 2.039 M Bytes
+
+20:
+s1: Period time used : 6.04 seconds
+s2: Period time used : 0.74 seconds
+
+21:
+s1: Total time used  : 6.05 seconds
+s2: Total time used  : 0.74 seconds
+
+22:
+s1: Total memory used: 64.99 M Bytes
+s2: Total memory used: 3.289 M Bytes
+
+231975:
+s1: Total time used  : 7.35 seconds
+s2: Total time used  : 2.04 seconds
+
+231976:
+s1: Total memory used: 66.21 M Bytes
+s2: Total memory used: 4.43 M Bytes
+
+231981 lines comparison completed.

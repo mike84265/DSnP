@@ -1,0 +1,22 @@
+6c6
+<   Copyright    [ Copyleft(c) 2007-2015 LaDs(III), GIEE, NTU, Taiwan ]
+---
+>   Copyright    [ Copyleft(c) 2007-2014 LaDs(III), GIEE, NTU, Taiwan ]
+74c74
+< getChar(istream& istr)
+---
+> getChar(char ch, istream& istr)
+76,77d75
+<    char ch = mygetc(istr);
+< 
+121c119
+< getChar(istream& istr)
+---
+> getChar(char ch, istream& istr)
+123,124d120
+<    char ch = mygetc(istr);
+< 
+161c157
+<          else { mybeep(); return getChar(istr); }
+---
+>          else { mybeep(); return checkChar(combo, istr); }

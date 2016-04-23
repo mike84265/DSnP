@@ -1,0 +1,50 @@
+cir> cirr tests.fraig/sim01.aag
+Cannot open design "tests.fraig/sim01.aag"!!
+
+cir> cirg 0
+Error: circuit has not been read!!
+
+cir> cirg 1
+Error: circuit has not been read!!
+
+cir> cirg 2
+Error: circuit has not been read!!
+
+cir> cirg 3
+Error: circuit has not been read!!
+
+cir> cirg 4
+Error: circuit has not been read!!
+
+cir> cirg 5
+Error: circuit has not been read!!
+
+cir> cirg 6
+Error: circuit has not been read!!
+
+cir> cirg 7
+Error: circuit has not been read!!
+
+cir> cirg 8
+Error: circuit has not been read!!
+
+cir> cirg 9
+Error: circuit has not been read!!
+
+cir> cirg 10
+Error: circuit has not been read!!
+
+cir> cirp -pi
+Error: circuit is not yet constructed!!
+
+cir> cirp -po
+Error: circuit is not yet constructed!!
+
+cir> cirp -n
+Error: circuit is not yet constructed!!
+
+cir> cirp -flo
+Error: circuit is not yet constructed!!
+
+cir> q -f
+

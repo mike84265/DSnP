@@ -1,0 +1,11 @@
+File 1 : str05.log
+File 2 : str05_ref.log
+46:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+51:
+s1: Total memory used: 0.1953 M Bytes
+s2: Total memory used: 0.125 M Bytes
+
+137 lines comparison completed.

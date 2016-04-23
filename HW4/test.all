@@ -1,0 +1,18 @@
+./memTest -f tests/do1 >& tests/do1.log
+./memTest -f tests/do2 >& tests/do2.log
+./memTest -f tests/do3 >& tests/do3.log
+./memTest -f tests/do4 >& tests/do4.log
+./memTest -f tests/do5 >& tests/do5.log
+./memTest -f tests/do6 >& tests/do6.log
+ref/memTest -f tests/do1 >& tests/do1.log.ref
+ref/memTest -f tests/do2 >& tests/do2.log.ref
+ref/memTest -f tests/do3 >& tests/do3.log.ref
+ref/memTest -f tests/do4 >& tests/do4.log.ref
+ref/memTest -f tests/do5 >& tests/do5.log.ref
+ref/memTest -f tests/do6 >& tests/do6.log.ref
+tests/diff.out tests/do1.log tests/do1.ref tests/do1.diff
+tests/diff.out tests/do2.log tests/do2.ref tests/do2.diff
+tests/diff.out tests/do3.log tests/do3.ref tests/do3.diff
+tests/diff.out tests/do4.log tests/do4.ref tests/do4.diff
+tests/diff.out tests/do5.log tests/do5.ref tests/do5.diff
+tests/diff.out tests/do6.log tests/do6.ref tests/do6.diff

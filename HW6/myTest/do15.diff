@@ -1,0 +1,27 @@
+File 1 : do15.log
+File 2 : do15.log.ref
+5:
+s1: Total memory used: 0.1797 M Bytes
+s2: Total memory used: 0.207 M Bytes
+
+49074:
+s1: Total memory used: 0.4023 M Bytes
+s2: Total memory used: 0.4219 M Bytes
+
+50049:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+50054:
+s1: Total memory used: 0.4023 M Bytes
+s2: Total memory used: 0.4219 M Bytes
+
+51029:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+51034:
+s1: Total memory used: 0.4023 M Bytes
+s2: Total memory used: 0.4219 M Bytes
+
+51039 lines comparison completed.

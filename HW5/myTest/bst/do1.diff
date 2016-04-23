@@ -1,0 +1,11 @@
+File 1 : do1.log
+File 2 : do1.log.ref
+15:
+s1: Total memory used: 0.07031 M Bytes
+s2: Total memory used: 0.05078 M Bytes
+
+39:
+s1: Total memory used: 0.07031 M Bytes
+s2: Total memory used: 0.05078 M Bytes
+
+52 lines comparison completed.

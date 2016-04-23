@@ -1,0 +1,99 @@
+File 1 : do2.log
+File 2 : do2.log.ref
+6:
+s1: Total memory used: 0.457 M Bytes
+s2: Total memory used: 0.4531 M Bytes
+
+1265:
+s1: Total memory used: 0.4609 M Bytes
+s2: Total memory used: 0.4531 M Bytes
+
+2524:
+s1: Total memory used: 0.4609 M Bytes
+s2: Total memory used: 0.4531 M Bytes
+
+2531:
+s1: Total memory used: 0.4609 M Bytes
+s2: Total memory used: 0.457 M Bytes
+
+3790:
+s1: Total memory used: 0.4609 M Bytes
+s2: Total memory used: 0.457 M Bytes
+
+5049:
+s1: Total memory used: 0.4609 M Bytes
+s2: Total memory used: 0.457 M Bytes
+
+5058:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.094 M Bytes
+
+17567:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+27576:
+s1: Period time used : 2.67 seconds
+s2: Period time used : 2.57 seconds
+
+27577:
+s1: Total time used  : 2.76 seconds
+s2: Total time used  : 2.66 seconds
+
+27578:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+27584:
+s1: Total time used  : 2.77 seconds
+s2: Total time used  : 2.67 seconds
+
+27585:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+37592:
+s1: Period time used : 0.04 seconds
+s2: Period time used : 0.05 seconds
+
+37593:
+s1: Total time used  : 2.81 seconds
+s2: Total time used  : 2.72 seconds
+
+37594:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+37599:
+s1: Period time used : 2.07 seconds
+s2: Period time used : 1.98 seconds
+
+37600:
+s1: Total time used  : 4.88 seconds
+s2: Total time used  : 4.7 seconds
+
+37601:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+37607:
+s1: Total time used  : 4.88 seconds
+s2: Total time used  : 4.7 seconds
+
+37608:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+45115:
+s1: Period time used : 0.03 seconds
+s2: Period time used : 0.04 seconds
+
+45116:
+s1: Total time used  : 4.91 seconds
+s2: Total time used  : 4.74 seconds
+
+45117:
+s1: Total memory used: 3.098 M Bytes
+s2: Total memory used: 3.105 M Bytes
+
+45122 lines comparison completed.

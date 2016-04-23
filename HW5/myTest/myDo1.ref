@@ -1,0 +1,44 @@
+adt> adt -r 20
+Illegal command!! (adt)
+
+adt> adtd -b 20
+
+adt> adtp
+=== ADT (bst) ===
+
+
+adt> adta -r 50
+
+adt> adtp
+=== ADT (bst) ===
+[  0] = aonvnx   [  1] = bdoras   [  2] = brzscs   [  3] = cqfndd   
+[  4] = csoxla   [  5] = dhlnyp   [  6] = dxwmbe   [  7] = ecoglo   
+[  8] = elkwgy   [  9] = enaqkv   [ 10] = fjdcqh   [ 11] = gpcbgx   
+[ 12] = hvvrrb   [ 13] = ibqbzm   [ 14] = isruoa   [ 15] = itcohg   
+[ 16] = jemxun   [ 17] = jqsvhi   [ 18] = jwjehw   [ 19] = kzsyfd   
+[ 20] = luuzkh   [ 21] = mfebwf   [ 22] = mknpnd   [ 23] = mspxew   
+[ 24] = mulrct   [ 25] = nefovq   [ 26] = nvhizi   [ 27] = nzueat   
+[ 28] = olusmr   [ 29] = oolqqs   [ 30] = pjeihj   [ 31] = pjgrrm   
+[ 32] = poklhg   [ 33] = pwubvx   [ 34] = pyhoqj   [ 35] = qgtarv   
+[ 36] = qljlcb   [ 37] = rkyghk   [ 38] = rqqlsm   [ 39] = segevj   
+[ 40] = stcizy   [ 41] = tkjzze   [ 42] = wjvtwx   [ 43] = xdjqdb   
+[ 44] = xfnpav   [ 45] = xvylrl   [ 46] = yfchfb   [ 47] = yoqgwq   
+[ 48] = ypxgeo   [ 49] = zemvji   
+
+adt> adtd -f 10
+
+adt> adtd -b 10
+
+adt> adtd -r 25
+
+adt> adtp
+=== ADT (bst) ===
+[  0] = hvvrrb   [  1] = kzsyfd   [  2] = nzueat   [  3] = oolqqs   
+[  4] = qgtarv   
+
+adt> adta -r 500
+
+adt> adtd -r 50
+
+adt> q -f
+

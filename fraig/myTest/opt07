@@ -1,0 +1,114 @@
+cirr ../tests.fraig/opt07.aag
+usage
+cirp -pi
+cirp -po
+cirp -fl
+cirp -s
+cirp -n
+cirw
+cirg 0
+cirg 0 -fanin 3
+cirg 0 -fanout 3
+cirg 1
+cirg 1 -fanin 3
+cirg 1 -fanout 3
+cirg 2
+cirg 2 -fanin 3
+cirg 2 -fanout 3
+cirg 3
+cirg 3 -fanin 3
+cirg 3 -fanout 3
+cirg 4
+cirg 4 -fanin 3
+cirg 4 -fanout 3
+cirg 5
+cirg 5 -fanin 3
+cirg 5 -fanout 3
+cirg 6
+cirg 6 -fanin 3
+cirg 6 -fanout 3
+cirg 7
+cirg 7 -fanin 3
+cirg 7 -fanout 3
+cirg 8
+cirg 8 -fanin 3
+cirg 8 -fanout 3
+cirg 9
+cirg 9 -fanin 3
+cirg 9 -fanout 3
+cirg 10
+cirg 10 -fanin 3
+cirg 10 -fanout 3
+cirg 11
+cirg 11 -fanin 3
+cirg 11 -fanout 3
+cirg 12
+cirg 12 -fanin 3
+cirg 12 -fanout 3
+cirg 13
+cirg 13 -fanin 3
+cirg 13 -fanout 3
+cirg 14
+cirg 14 -fanin 3
+cirg 14 -fanout 3
+cirg 15
+cirg 15 -fanin 3
+cirg 15 -fanout 3
+cirsw
+ciropt
+usage
+cirp -pi
+cirp -po
+cirp -fl
+cirp -s
+cirp -n
+cirw
+cirg 0
+cirg 0 -fanin 3
+cirg 0 -fanout 3
+cirg 1
+cirg 1 -fanin 3
+cirg 1 -fanout 3
+cirg 2
+cirg 2 -fanin 3
+cirg 2 -fanout 3
+cirg 3
+cirg 3 -fanin 3
+cirg 3 -fanout 3
+cirg 4
+cirg 4 -fanin 3
+cirg 4 -fanout 3
+cirg 5
+cirg 5 -fanin 3
+cirg 5 -fanout 3
+cirg 6
+cirg 6 -fanin 3
+cirg 6 -fanout 3
+cirg 7
+cirg 7 -fanin 3
+cirg 7 -fanout 3
+cirg 8
+cirg 8 -fanin 3
+cirg 8 -fanout 3
+cirg 9
+cirg 9 -fanin 3
+cirg 9 -fanout 3
+cirg 10
+cirg 10 -fanin 3
+cirg 10 -fanout 3
+cirg 11
+cirg 11 -fanin 3
+cirg 11 -fanout 3
+cirg 12
+cirg 12 -fanin 3
+cirg 12 -fanout 3
+cirg 13
+cirg 13 -fanin 3
+cirg 13 -fanout 3
+cirg 14
+cirg 14 -fanin 3
+cirg 14 -fanout 3
+cirg 15
+cirg 15 -fanin 3
+cirg 15 -fanout 3
+q -f

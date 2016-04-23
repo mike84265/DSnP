@@ -1,0 +1,52 @@
+cirr ../tests.fraig/sim02.aag
+cirg 0
+cirg 0 -fanout 2
+cirg 1
+cirg 1 -fanout 2
+cirg 2
+cirg 2 -fanin 2
+cirg 2 -fanout 2
+cirg 3
+cirg 3 -fanin 2
+cirg 3 -fanout 2
+cirg 4
+cirg 4 -fanin 2
+cirg 4 -fanout 2
+cirg 5
+cirg 5 -fanin 2
+cirg 5 -fanout 2
+cirg 6
+cirg 6 -fanin 2
+cirg 6 -fanout 2
+cirg 7
+cirg 7 -fanin 2
+cirg 7 -fanout 2
+cirg 8
+cirg 8 -fanin 2
+cirg 8 -fanout 2
+cirg 9
+cirg 9 -fanin 2
+cirg 10
+cirg 10 -fanin 2
+cirp -pi
+cirp -po
+cirp -n
+cirp -flo
+cirsim -f ../tests.fraig/pattern.02
+cirfraig
+cirg 0
+cirg 1
+cirg 2
+cirg 3
+cirg 4
+cirg 5
+cirg 6
+cirg 7
+cirg 8
+cirg 9
+cirg 10
+cirp -pi
+cirp -po
+cirp -n
+cirp -flo
+q -f

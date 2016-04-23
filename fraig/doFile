@@ -1,0 +1,10 @@
+cd myTest
+echo "Constructing $1.log ..."
+../fraig -f $1 >& $1.log
+
+echo "Constructing $1_ref.log ..."
+../ref/fraig -f $1 >& $1_ref.log
+
+echo "Comparing consequences of $1 ..."
+../diff.out $1.log $1_ref.log $1.diff
+cd ..

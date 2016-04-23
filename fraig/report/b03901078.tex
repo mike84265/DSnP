@@ -1,0 +1,167 @@
+\documentclass{article}
+\author{蔡承佑\quad b03901078\\ b03901078@ntu.edu.tw}
+\title{Report on DSnP Final Project}
+\usepackage{xeCJK, amsmath, amssymb, fontspec, geometry, color, enumerate, CJKnumb, enumitem, framed}
+\usepackage{longtable}
+\setCJKmainfont{DFKai-SB}
+\defaultCJKfontfeatures{AutoFakeBold=4, AutoFakeSlant=.4}
+\setmainfont{Times New Roman}
+\everymath{\displaystyle}
+\newfontfamily\cs{DejaVu Sans Mono}
+\geometry{tmargin=20pt}
+\begin{document}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\cell}[2]{\WS{1}\setlength{\tabcolsep}{0pt}\begin{tabular}{#1} #2 \end{tabular}}
+\newcommand{\WS}[1]{\renewcommand{\arraystretch}{#1}}
+\hyphenation{Fec-Group-List}
+\maketitle
+\section{Data Structure}
+\subsection{CirMgr: A class that manages the interface between the Cmd interface and the CirGate member}
+
+\WS{2}\begin{longtable}[l]{ll}
+{\cs \_gateList} & \cell{l}{Stores the {\cs CirGate*} pointers in order of their lineNo,\\
+                    which is more convinient for circuit parsing.} \\
+{\cs \_idList}   & A {\cs vector<unsigned>} which maps ID to the index in \_gateList \\
+\cell{l}{\cs \_PINum\\\cs\_PONum\\\cs\_AIGNum\\ \cs...} & various numbers that stores the parameters of this circuit.\\
+{\cs \_dfsList} & \cell{l}{Stores the gate pointers that are in the dfs list. \\ 
+                  The dfs list is frequently used in this program, so it's better to store one.} \\
+{\cs \_FecList} & Stores the FEC groups. Its more detailed data structure is defined in {\bf CirFec.h}.\\
+{\cs \_simLog} & {\cs ofstream*} to output the value of simulation.\\
+\end{longtable}
+\subsection{CirGate: A base class that defines all variables that are needed in any kind of gates}
+\WS{2}\begin{longtable}[l]{ll}
+{\cs \_lineNo} & The line number of the gate defined in the aig file.\\
+{\cs \_id} & ID defined in the aig file.\\
+{\cs \_ref} & A parameter for doing dfs.\\
+{\cs \_value} & Values of simulation. Defaults to all zero.\\
+\multicolumn{2}{c}{\large\bf Static Members}\\
+{\cs \_globalref} & Corresponding to {\cs \_ref}, used for dfs.\\
+{\cs \_printOrder} & Record the number that a gate should print when calling {\cs printGate()}.\\
+{\cs \_indent} & A string consists of various spaces for indentation of {\cs reportFanin()} and {\cs reportFanout()}.\\
+{\cs USED} & A hidden parameter that stores whether the gate is in the dfs list in the $30^{\text{th}}$ bit of {\cs \_id}.\\
+{\cs INV} & A hidden parameter that stores whether fanin or fanout is inverted in the LSB.\\
+\end{longtable}
+And there are 5 types of other gates, so I define 5 other derived class to inherit the base class {\cs CirGate}.\\
+There are only minor difference among them for specific perpose.\\
+\WS{2}\begin{longtable}[l]{lll}
+Variable & classes that have it & Explanation\\
+{\cs \_symbol} & {\cs PI}, {\cs PO} & Only PI and PO has symbol, other class don't need it. \\
+{\cs \_fanin} & {\cs PO}, {\cs AIG} & \cell{l}{Only these classes have fanin. \\
+               Besides, {\cs \_fanin} in {\cs PI} is a {\cs size\_t} but {\cs size\_t[2]} in {\cs AIG}.}\\
+{\cs \_fanoutList} & {\cs PI}, {\cs AIG}, {\cs Const}, {\cs Undef} & It doesn't make sense to store fanouts in {\cs PO}.\\
+{\cs \_FecGroup} & {\cs AIG}, {\cs Const} & \cell{l}{FEC groups consist only of AIG and CONST.\\ 
+                                                     PI and PO are not considered in this program.} \\
+{\cs \_var} & {\cs PI}, {\cs PO}, {\cs AIG}, {\cs Const} & Undefined gates won't be covered in the dfs list.\\ 
+\end{longtable}
+For common functions like {\cs reportGate()}, {\cs setFanout(size\_t fo)}, {\cs getTypeStr()}, they are defined as virtual function
+in the base class in order to call with {\cs CirGate*} without cast.
+\subsection{FecGroupList: A wrapper class that stores all FEC groups with member function that updates the group list when new 
+ simulation is performed.}
+In fact, I've tried two data types for storing the groups. Here are their comparison.
+\WS{1}\begin{longtable}[l]{lll}
+&Advantage&Disadvantage \\
+{\cs queue} & 
+\cell{l}{
+   $\bullet\quad$FIFO\\
+   $\bullet\quad$More efficient when both {\cs pop\_front}\\
+   $\qquad$and {\cs push\_back} are needed} &
+\cell{l}{
+   $\bullet\quad$Not random access.\\
+   $\bullet\quad$Must use {\cs pop()} and {\cs front()} to triverse.\\
+   $\bullet\quad${\cs pop()} calls the destructor of the object.\\
+   $\bullet\quad$Must copy the object when triverse since\\ 
+   $\qquad$the reference one is destructed}\\
+\\
+{\cs vector} &
+\cell{l}{
+   $\bullet\quad$No need to copy the object. \\
+   $\qquad$Just use the reference one\\
+   $\bullet\quad$The element is not destructed while triverse.\\
+}&
+\cell{l}{
+   $\bullet\quad O(n)$ for {\cs pop\_front}.\\
+   $\bullet\quad$Not a good choice when {\cs pop\_front} is frequently used.
+}
+\end{longtable}
+And here's the result of a experiment:
+\begin{longtable}[l]{c|c|c|c}
+&Reference Program & Implement with {\cs queue} & Implement with {\cs vector} \\
+\hline
+Period Time & 0.71 seconds & 0.83 seconds & \red{6.04 seconds}\\
+\hline
+Memory Used & 4.473 MB & 66.34 MB & 66.21 MB
+\end{longtable}
+\noindent At last, I choose {\cs queue} to implement {\cs FecGroupList}.\\
+And the two most important function in the class {\cs FecGroupList} is as follow.
+\begin{longtable}[l]{ll}
+{\cs update()} & 
+\cell{l}{This functions is called when new simulation values have been evaluated.\\
+Triverse all the current FEC groups and using a {\cs HashMap<value,GateList>} \\
+\quad to split the the gates with different value.\\
+Pop out the first FEC group from the queue and \\
+\quad collect valid new FEC groups(size>1) to push into the queue.
+}\\
+\\
+{\cs updateFecGroupInGates()} & 
+\cell{l}{As its name suggests, it update the {\cs \_FecGroup} in every gates.\\
+This function is called when all the simulation patterns are done.\\
+And it sort the elements in FEC groups in order of their ID.
+}\\
+\end{longtable}
+\section{Algorithm}
+\subsection{CirSweep}
+Use the $30^{\text{th}}$ bit of {\cs CirGate::\_id} to record whether the gate is used (in {\cs \_dfsList}). 
+Triverse all valid gates in {\cs \_gateList} and check the bit.
+If it indicates that the gate is not in the {\cs \_dfsList}, delete it.\\
+$\ast$ Deleting a gate is like deleting a node in double linked list. Just pull out its fanins and fanouts.
+\subsection{CirOpt}
+Declare a new function {\cs checkFaninType} in {\cs class AIG} (only AIG need this function), 
+and define a enum {\cs FaninType} for the function to return which type of the combination of the fanins the AIG belongs to.\\
+There are 5 types of fanin combinations:
+\begin{enumerate}
+\item Two fanins are definitely the same.
+\item Two fanins are with the same ID but inverted.
+\item One of fanin is CONST 0.
+\item One of fanin is CONST 1.
+\item None of above.
+\end{enumerate}
+First identify which type the gates belongs to. The operation done to type 1 and type 4 are similar, and type 2 and type 3 are similar.
+In this function, the two gates to be merged is in series (a little bit different from the case in cirStrash and cirFraig)
+And there a inverting problem should be properly handled 
+(When the inverting fanin merges a gates, the fanouts inherited by the merging gates should also invert)
+\subsection{CirStrash}
+Construct a {\cs HashMap<AIGKey,AIG*>}, where {\cs AIGKey} is a wrapper class which implements the {\cs operator()}
+and {\cs operator==} for the Hash Function. 
+Here {\cs operator()} is the sum of {\cs (size\_t)\_fanin[0]} and {\cs (size\_t)\_fanin[1]}.
+Use the HashMap to identify gates with the same fanins.
+\begin{framed}
+\cs foreach(AIG,\_dfsList)\\
+\indent\quad if (check(AIGKey(AIG),mergeGate))\\
+\indent\qquad merge(mergeGate, AIG);\\
+\indent\quad else\\
+\indent\qquad forceInsert(AIGKey(AIG),AIG*);
+\end{framed}
+In this case, the {\cs merge(g1,g2)} function transfers the fanouts of g2 to g1 
+and delete g2 from the {\cs \_fanoutList} of its fanins.
+\subsection{CirSim}
+\begin{enumerate}
+\item Get the pattern whether from the file or randomly generate. 
+\item Pack it into a 32-bit {\cs unsigned} and pass them into all PIs.
+\item Call {\cs AIG::evaluateValue()} to evaluate the value of the AIG.
+\item Call {\cs PO::fetchValue()} to fetch the value of its fanin gate.
+\item Classify their FEC groups according their value just evaluated.\\
+(Method of classifying FEC groups have been mentioned above, with the data structure {\cs FecGroupList}
+\item Output the value of POs to {\cs \_simLog} if logFile is assigned.
+\end{enumerate}
+\subsection{CirFraig}
+After simulation, we've get some FEC groups. 
+And in this part, we using a SAT engine to proof the equality of these FEC groups.
+\begin{enumerate}
+\item Set up the SatSolver.
+\item Triverse the circuit from {\cs \_dfsList}, fetch a FEC and proof whether ({\cs *this}$\oplus$FEC) is SAT.
+If SAT, they're not equivalent. If UNSAT, they're equivalent and can be merged.
+\item For gates that proved to be equalent, merge them.
+\item Rebuild the dfs list.
+\end{enumerate}
+At last the program crashes while rebuilding the dfs list. Maybe there's trouble when merging gates...
+\end{document}

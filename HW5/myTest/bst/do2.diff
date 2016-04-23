@@ -1,0 +1,158 @@
+File 1 : do2.log
+File 2 : do2.log.ref
+adt> adta -r 5000
+adt> usage
+5:
+s1: Total memory used: 0.2969 M Bytes
+s2: Total memory used: 0.2852 M Bytes
+
+adt> adtp
+adt> usage
+1264:
+s1: Total memory used: 0.3438 M Bytes
+s2: Total memory used: 0.3242 M Bytes
+
+adt> adtp -r
+adt> usage
+2523:
+s1: Total memory used: 0.3438 M Bytes
+s2: Total memory used: 0.3242 M Bytes
+
+adt> adts
+adt> usage
+2530:
+s1: Total memory used: 0.3438 M Bytes
+s2: Total memory used: 0.3242 M Bytes
+
+adt> adtp
+adt> usage
+3787:
+s1: Period time used : 0.02 seconds
+s2: Period time used : 0.01 seconds
+
+3788:
+s1: Total time used  : 0.04 seconds
+s2: Total time used  : 0.03 seconds
+
+3789:
+s1: Total memory used: 0.3438 M Bytes
+s2: Total memory used: 0.3242 M Bytes
+
+adt> adtp -r
+adt> usage
+5046:
+s1: Period time used : 0.01 seconds
+s2: Period time used : 0.02 seconds
+
+5048:
+s1: Total memory used: 0.3438 M Bytes
+s2: Total memory used: 0.3242 M Bytes
+
+adt> adtr 3
+adt> adta -r 50000
+adt> usage
+5055:
+s1: Period time used : 0.02 seconds
+s2: Period time used : 0.01 seconds
+
+5056:
+s1: Total time used  : 0.07 seconds
+s2: Total time used  : 0.06 seconds
+
+5057:
+s1: Total memory used: 2.426 M Bytes
+s2: Total memory used: 2.398 M Bytes
+
+adt> adtp
+adt> usage
+17564:
+s1: Period time used : 0.13 seconds
+s2: Period time used : 0.11 seconds
+
+17565:
+s1: Total time used  : 0.2 seconds
+s2: Total time used  : 0.17 seconds
+
+17566:
+s1: Total memory used: 2.434 M Bytes
+s2: Total memory used: 2.406 M Bytes
+
+adt> adtd -r 10000
+adt> adtp -r
+adt> usage
+27575:
+s1: Period time used : 196.6 seconds
+s2: Period time used : 6.41 seconds
+
+27576:
+s1: Total time used  : 196.8 seconds
+s2: Total time used  : 6.58 seconds
+
+27577:
+s1: Total memory used: 2.441 M Bytes
+s2: Total memory used: 2.41 M Bytes
+
+adt> adts
+adt> usage
+27583:
+s1: Total time used  : 196.8 seconds
+s2: Total time used  : 6.58 seconds
+
+27584:
+s1: Total memory used: 2.441 M Bytes
+s2: Total memory used: 2.41 M Bytes
+
+adt> adtp
+adt> usage
+37591:
+s1: Period time used : 0.1 seconds
+s2: Period time used : 0.09 seconds
+
+37592:
+s1: Total time used  : 196.9 seconds
+s2: Total time used  : 6.67 seconds
+
+37593:
+s1: Total memory used: 2.441 M Bytes
+s2: Total memory used: 2.41 M Bytes
+
+adt> adtd -r 10000
+adt> usage
+37598:
+s1: Period time used : 151.2 seconds
+s2: Period time used : 4.72 seconds
+
+37599:
+s1: Total time used  : 348.1 seconds
+s2: Total time used  : 11.39 seconds
+
+37600:
+s1: Total memory used: 2.441 M Bytes
+s2: Total memory used: 2.41 M Bytes
+
+adt> adts
+adt> usage
+37606:
+s1: Total time used  : 348.1 seconds
+s2: Total time used  : 11.39 seconds
+
+37607:
+s1: Total memory used: 2.441 M Bytes
+s2: Total memory used: 2.41 M Bytes
+
+adt> adtp
+adt> usage
+45114:
+s1: Period time used : 0.08 seconds
+s2: Period time used : 0.07 seconds
+
+45115:
+s1: Total time used  : 348.1 seconds
+s2: Total time used  : 11.46 seconds
+
+45116:
+s1: Total memory used: 2.441 M Bytes
+s2: Total memory used: 2.41 M Bytes
+
+adt> q -f
+45121 lines comparison completed.

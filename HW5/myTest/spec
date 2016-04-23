@@ -1,0 +1,25 @@
+### What you need to implement in the bst file ###
+
+basic structure:
+bstNode:
+*left, *right, data
+Is parent needed?
+constructor, default one and with arguments.
+
+bst:
+constructor
+destructor
+ iterator
+   operator++  (2 ver.)    (how?)
+   opreator--  (2 ver.)    (how?)
+   operator*   (2 ver.)
+   operator==
+   operator!=
+begin()  =>  go straight forward to the leftmost node
+end()    =>  go straight forward th tee rightmost node
+insert(T&) => find and insert
+pop_back()
+pop_front()
+erase(iterator)
+erase(T*)
+clear

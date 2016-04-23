@@ -1,0 +1,8 @@
+cirr ../tests.fraig/strash04.aag
+cirp -n
+cirstr
+cirp -n
+cirp -s
+cirw
+usage
+q -f

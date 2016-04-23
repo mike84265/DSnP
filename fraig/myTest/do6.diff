@@ -1,0 +1,31 @@
+File 1 : do6.log
+File 2 : do6_ref.log
+236:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+247:
+s1: MAX_FAILS = 2
+s2: MAX_FAILS = 3
+
+248:
+s1: Total #FEC Group = 0Total #FEC Group = 064 patterns simulated.
+s2: Total #FEC Group = 0                              Total #FEC Group = 0                              Total #FEC Group = 0                              Total #FEC Group = 0                              96 patterns simulated.
+
+263:
+s1: = Value: 0111_1011_1111_1001_0001_0000_1010_0100 =
+s2: = Value: 0001_0000_1110_1000_1010_0100_1000_0101 =
+
+270:
+s1: = Value: 0001_0011_1100_0110_1110_0001_1001_1100 =
+s2: = Value: 0111_1011_1001_1111_1111_1001_1111_0101 =
+
+293:
+s1: = Value: 0001_0011_1100_0000_0000_0000_1000_0100 =
+s2: = Value: 0001_0000_1000_1000_1010_0000_1000_0101 =
+
+418:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+423 lines comparison completed.

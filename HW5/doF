@@ -1,0 +1,6 @@
+echo "Executing dlist..."
+ref/adtTest.dlist -f testData >& dlist.log$1 
+echo "Executing array..."
+ref/adtTest.array -f testData >& array.log$1
+echo "Executing bst..."
+ref/adtTest.bst -f testData >& bst.log$1

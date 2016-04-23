@@ -1,0 +1,15 @@
+File 1 : do4.log
+File 2 : do4.log.ref
+17:
+s1: Total memory used: 0.06641 M Bytes
+s2: Total memory used: 0.05078 M Bytes
+
+53:
+s1: Total memory used: 0.06641 M Bytes
+s2: Total memory used: 0.05078 M Bytes
+
+104:
+s1: Total memory used: 0.06641 M Bytes
+s2: Total memory used: 0.05078 M Bytes
+
+109 lines comparison completed.

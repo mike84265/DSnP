@@ -1,0 +1,47 @@
+File 1 : do12.log
+File 2 : do12_ref.log
+5:
+s1: Total memory used: 1.043 M Bytes
+s2: Total memory used: 1.395 M Bytes
+
+809078:
+s1: Period time used : 1.45 seconds
+s2: Period time used : 1.48 seconds
+
+809079:
+s1: Total time used  : 1.45 seconds
+s2: Total time used  : 1.48 seconds
+
+809080:
+s1: Total memory used: 2.492 M Bytes
+s2: Total memory used: 2.824 M Bytes
+
+819005:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+819009:
+s1: Total time used  : 1.47 seconds
+s2: Total time used  : 1.5 seconds
+
+819010:
+s1: Total memory used: 2.492 M Bytes
+s2: Total memory used: 2.824 M Bytes
+
+828935:
+s1: AAG output by CYT.
+s2: AAG output by Chung-Yang (Ric) Huang
+
+828938:
+s1: Period time used : 0.01 seconds
+s2: Period time used : 0.02 seconds
+
+828939:
+s1: Total time used  : 1.48 seconds
+s2: Total time used  : 1.52 seconds
+
+828940:
+s1: Total memory used: 2.492 M Bytes
+s2: Total memory used: 2.824 M Bytes
+
+828945 lines comparison completed.

@@ -1,0 +1,62 @@
+# A cirMgr as a interface to reply all the commands from cmd
+   # Mapping IDs to gates (cirGate*).
+   # Recording the orders and positions where POs are declared.
+   * CIRRead
+   # Parsing the input file
+      # Finding syntax error.
+      # Passing IDs and edges to gates.
+      # header: aag M I L O A
+      # PI
+      # PO
+      # AIGRHS AIGLHS_1 AIGLHS_2
+      # symbol
+      # comments
+   * CIRPrint
+      * netlist
+      # Printing the gates using post-order recursive call.
+      # Report floating fanins
+      * PI
+      # Printing in increasing lineNo. order
+      * PO
+      # Printing in increasing lineNo. order
+      * Floating
+      # Find those whose fanin has UNDEF or fanout is empty.
+   * CIRGate
+   # Report the condition of a gate.
+      # fanin
+      # fanout
+   * CIRWrite
+# A detailed definition of each gate
+   # Base class member:
+      # _globalref, _ref, _fanin, _id, _fanout(?) 
+      # inheriting function: getId, reportFanin, reportFanout
+      # virtual function: getType,
+   # For PIs:
+      # Constructor
+      # Destructor
+      # Report gate type
+      # Record IDs
+      # The base case of post-order printGate() function.
+   # For POs:
+      # Constructor
+      # Destructor
+      # Record IDs
+      # Report gate type 
+      * Record fanins and NEG (NEG stored in the last bit)
+      # Implement the post-order printing function.
+   # For AIG gates:
+      # Constructor
+      # Destructor
+      * Record fanins and NEG (NEG stored in the last bit)
+      # Record IDs
+      * Report gate type (report UNDEF if fanins not complete)
+      * Declare "operator !" to report whether it's complete.
+      # Implement the post-order printing function.
+      * Need a data member to record whether it has fanout.
+   # Constant Gates:
+      # Constructor
+      # Destructor
+      # Report gate type
+      # _ref and _globalref for traversing
+# Able to detect all the floating fanins and fanouts  (<- how???)
+

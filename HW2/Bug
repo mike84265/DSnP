@@ -1,0 +1,8 @@
+f
+f
+f
+f
+<up>
+<down>   ->   segmentation fault!!!
+
+The space at the end is not deleted

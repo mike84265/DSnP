@@ -1,0 +1,11 @@
+File 1 : opt06.log
+File 2 : opt06_ref.log
+5:
+s1: Total memory used: 0.168 M Bytes
+s2: Total memory used: 0.09766 M Bytes
+
+457:
+s1: Total memory used: 0.2148 M Bytes
+s2: Total memory used: 0.1172 M Bytes
+
+694 lines comparison completed.
